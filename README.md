@@ -1,26 +1,25 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Freelancer](http://startbootstrap.com/template-overviews/freelancer/)
+# Imran Ali — Resume (GitHub Pages)
 
-[Freelancer](http://startbootstrap.com/template-overviews/freelancer/) is a one page freelancer portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, and a working PHP contact form.
+This repository contains a clean, responsive resume site intended to be hosted on GitHub Pages.
 
-## Getting Started
+Files:
+- `index.html` — main resume page (Bootstrap + custom CSS)
+- `style.css` — custom styles and print rules
+- `script.js` — theme toggle and reveal animation scripts
+- `profile.jpg` — profile photo (place your image here)
+- `Resume-Imran-Ali.pdf` — PDF version of your resume (place production PDF here)
 
-To use this theme, choose one of the following options to get started:
-* Download the latest release on Start Bootstrap
-* Fork this repository on GitHub
+Quick setup for GitHub Pages:
+1. Create a repository named `<yourusername>.github.io` and push this project to the repository root.
+2. Ensure `index.html`, `style.css`, `script.js`, `profile.jpg`, and `Resume-Imran-Ali.pdf` are committed.
+3. Wait a few minutes and visit `https://<yourusername>.github.io`.
 
-## Bugs and Issues
+Notes:
+- The site uses a Bootstrap CDN; if you prefer to bundle assets, download Bootstrap and update the link in `index.html`.
+- The theme toggle persists the user's preference in `localStorage`.
+- The page includes print-friendly styles to produce a clean PDF when printing from the browser.
 
-Have a bug or an issue with this theme? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-freelancer/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/freelancer/).
-
-## Creator
-
-Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
-
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
+If you want I can:
+- Further tune copy to match a specific job posting.
+- Generate a ready-to-print PDF from the page.
+- Add a LinkedIn/GitHub link section if you provide the URLs.
