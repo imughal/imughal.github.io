@@ -23,6 +23,7 @@
   window.addEventListener('DOMContentLoaded', () => {
     const tBtn = document.getElementById("themeToggle");
     const pBtn = document.getElementById("printBtn");
+    const pBtn = document.getElementById("downBtn");
 
     if (tBtn) {
       tBtn.onclick = function () {
@@ -35,7 +36,11 @@
         window.print();
       };
     }
-
+    if (dBtn) {
+      dBtn.onclick = function () {
+        window.print();
+      };
+    }
     // Simple scroll reveal
     const reveals = document.querySelectorAll('.reveal');
     const observer = new IntersectionObserver((entries) => {
@@ -54,3 +59,4 @@
     }, 1000);
   });
 })();
+
