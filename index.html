@@ -1,142 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <title>Imran Ali — Resume</title>
+
+  <title>Imran Ali — Office Administrator & Assistant Accountant</title>
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
-    content="Imran Ali — Office Administrator & Assistant Accountant. Resume hosted on GitHub Pages.">
+        content="Imran Ali — Office Administrator & Assistant Accountant with 10+ years of experience in UAE and Pakistan.">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://imughal.github.io/">
+
+  <!-- Open Graph / LinkedIn Preview -->
+  <meta property="og:title" content="Imran Ali — Office Administrator & Accountant">
+  <meta property="og:description"
+        content="10+ years experience in administration, accounting & site supervision in UAE.">
+  <meta property="og:image" content="https://imughal.github.io/profile.jpg">
+  <meta property="og:url" content="https://imughal.github.io/">
+  <meta property="og:type" content="website">
+
+  <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Main CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+  <!-- Floating Controls -->
   <div class="floating-ui">
-    <button id="themeToggle" type="button" title="Toggle color theme">🌙</button>
-    <button id="printBtn" type="button" title="Print to PDF">🖨️</button>
+    <button id="themeToggle" type="button" aria-label="Toggle dark mode" title="Toggle color theme">
+      🌙
+    </button>
+    <button id="printBtn" type="button" aria-label="Print resume" title="Print to PDF">
+      🖨️
+    </button>
   </div>
 
-  <main class="resume container">
-    <div class="resume">
-      <aside class="sidebar">
-        <div class="profile-section">
-          <img src="profile.jpg" alt="Imran Ali" class="profile-img">
-          <h1 class="name">Imran Ali</h1>
-          <p class="role">Office Administrator · Assistant Accountant</p>
-        </div>
+  <!-- Resume Layout -->
+  <main class="container resume">
 
-        <div class="contact-card card">
-          <h3>Contact</h3>
-          <ul class="contact-list">
-            <li>📞 +971 54 582 3070</li>
-            <li>✉️ imughaluae@gmail.com</li>
-            <li>📍 Abu Dhabi, UAE</li>
-            <li><button download class="btn-download" id="downBtn">⬇ Download PDF Original</button></li>
-          </ul>
-        </div>
+    <!-- Sidebar -->
+    <aside class="sidebar">
 
-        <div class="card">
-          <h3>Skills</h3>
-          <div class="skills">
-            <span>MS Excel</span><span>MS Word</span><span>PowerPoint</span>
-            <span>Focus ERP</span><span>Tally ERP 9</span>
-            <span>AutoCAD</span><span>Photoshop</span>
-            <span>WordPress</span>
-          </div>
-        </div>
-
-        <div class="card">
-          <h3>Languages</h3>
-          <p>Punjabi · Urdu · English · Arabic · Hindi</p>
-        </div>
-
-        <div class="card">
-          <h3>Personal</h3>
-          <ul class="personal">
-            <li><strong>Father:</strong> Abdul Ghaffar</li>
-            <li><strong>DOB:</strong> 15 Oct 1990</li>
-            <li><strong>Nationality:</strong> Pakistani</li>
-          </ul>
-        </div>
-      </aside>
-
-      <div class="content">
-        <section class="about card reveal">
-          <h2>About</h2>
-          <p>Customer-oriented professional with <strong>10+ years of progressive experience</strong> in administration,
-            accounting, site supervision and ERP workflows across the UAE and Pakistan. Proven track record improving
-            office efficiency, maintaining accurate financial records, and supporting cross-functional teams.</p>
-        </section>
-        <section class="experience reveal">
-          <h2>Experience</h2>
-
-          <article class="job card">
-            <h3>Office Administrator · Assistant Accountant · Site Supervisor</h3>
-            <p class="job-meta">Max Decor Design & Works — Abu Dhabi (2022–Present)</p>
-            <ul>
-              <li>Oversee daily office and on-site operations to ensure timely project delivery and smooth coordination
-                between workshop and site teams.</li>
-              <li>Manage procurement and inventory workflows, improving material availability for projects.</li>
-              <li>Prepare and submit VAT documentation and regular financial records, supporting compliance and audit
-                readiness.</li>
-            </ul>
-          </article>
-
-          <article class="job card">
-            <h3>Office Administrator · Assistant Accountant</h3>
-            <p class="job-meta">Al Quresh Carpentry & Decoration — Abu Dhabi (2013–2020)</p>
-            <ul>
-              <li>Coordinated sales, production and delivery schedules to meet customer expectations and reduce lead
-                time.</li>
-              <li>Maintained inventory records and managed procurement to control stock levels and costs.</li>
-              <li>Executed routine bookkeeping and assisted with quarterly VAT submissions.</li>
-            </ul>
-          </article>
-
-          <article class="job card">
-            <h3>CCTV Technician (Freelance)</h3>
-            <p class="job-meta">Pakistan (2020–2022)</p>
-            <ul>
-              <li>Designed and installed IP and analog CCTV systems; provided technical support and troubleshooting for
-                DVR/NVR setups.</li>
-            </ul>
-          </article>
-        </section>
-
-        <section class="education reveal">
-          <h2>Education & Certifications</h2>
-          <div class="card">
-            <p class="job-meta mb-1"><strong>Relevant Training</strong></p>
-            <p class="mb-0">On-the-job accounting systems training, ERP operations and site safety practices.</p>
-          </div>
-        </section>
-
-        <section class="achievements reveal">
-          <h2>Core Strengths</h2>
-          <div class="card">
-            <ul>
-              <li>Financial record-keeping & VAT compliance</li>
-              <li>Office & site coordination</li>
-              <li>Procurement, inventory & workshop liaison</li>
-              <li>ERP & accounting software familiarity (Focus ERP, Tally)</li>
-              <li>Strong communication across multicultural teams</li>
-            </ul>
-          </div>
-        </section>
-
+      <div class="profile-section">
+        <img src="profile.jpg" alt="Imran Ali" class="profile-img">
+        <h1 class="name">Imran Ali</h1>
+        <p class="role">Office Administrator · Assistant Accountant</p>
       </div>
+
+      <div class="card">
+        <h3>Contact</h3>
+        <ul class="contact-list">
+          <li>📞 +971 54 582 3070</li>
+          <li>✉️ imughaluae@gmail.com</li>
+          <li>📍 Abu Dhabi, UAE</li>
+          <li>
+            <a href="Resume-Imran-Ali.pdf" download class="btn-download">
+              ⬇ Download PDF Original
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Skills</h3>
+        <div class="skills">
+          <span>MS Excel</span>
+          <span>MS Word</span>
+          <span>PowerPoint</span>
+          <span>Focus ERP</span>
+          <span>Tally ERP 9</span>
+          <span>AutoCAD</span>
+          <span>Photoshop</span>
+          <span>WordPress</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Languages</h3>
+        <p>Punjabi · Urdu · English · Arabic · Hindi</p>
+      </div>
+
+      <div class="card">
+        <h3>Personal</h3>
+        <ul class="personal">
+          <li><strong>Father:</strong> Abdul Ghaffar</li>
+          <li><strong>DOB:</strong> 15 Oct 1990</li>
+          <li><strong>Nationality:</strong> Pakistani</li>
+        </ul>
+      </div>
+
+    </aside>
+
+    <!-- Main Content -->
+    <div class="content">
+
+      <section class="about card reveal">
+        <h2>About</h2>
+        <p>
+          Customer-oriented professional with <strong>10+ years of progressive experience</strong>
+          in administration, accounting, site supervision and ERP workflows across the UAE and
+          Pakistan. Proven track record of improving office efficiency, maintaining accurate
+          financial records, and supporting cross-functional teams.
+        </p>
+      </section>
+
+      <section class="experience reveal">
+        <h2>Experience</h2>
+
+        <article class="job card">
+          <h3>Office Administrator · Assistant Accountant · Site Supervisor</h3>
+          <p class="job-meta">
+            Max Decor Design & Works — Abu Dhabi (2022–Present)
+          </p>
+          <ul>
+            <li>Oversee daily office and on-site operations ensuring smooth coordination between workshop and site teams.</li>
+            <li>Manage procurement and inventory workflows supporting multiple concurrent projects.</li>
+            <li>Prepare and submit VAT documentation and financial records for compliance and audits.</li>
+          </ul>
+        </article>
+
+        <article class="job card">
+          <h3>Office Administrator · Assistant Accountant</h3>
+          <p class="job-meta">
+            Al Quresh Carpentry & Decoration — Abu Dhabi (2013–2020)
+          </p>
+          <ul>
+            <li>Coordinated sales, production and delivery schedules to meet client deadlines.</li>
+            <li>Maintained inventory records and managed procurement to control stock levels.</li>
+            <li>Handled bookkeeping and assisted with quarterly VAT submissions.</li>
+          </ul>
+        </article>
+
+        <article class="job card">
+          <h3>CCTV Technician (Freelance)</h3>
+          <p class="job-meta">
+            Pakistan (2020–2022)
+          </p>
+          <ul>
+            <li>Installed and supported IP and analog CCTV systems including DVR/NVR troubleshooting.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="education reveal">
+        <h2>Education & Certifications</h2>
+        <div class="card">
+          <p class="job-meta mb-1"><strong>Relevant Training</strong></p>
+          <p class="mb-0">
+            On-the-job accounting systems training, ERP operations, and site safety practices.
+          </p>
+        </div>
+      </section>
+
+      <section class="achievements reveal">
+        <h2>Core Strengths</h2>
+        <div class="card">
+          <ul>
+            <li>Financial record-keeping & VAT compliance</li>
+            <li>Office & site coordination</li>
+            <li>Procurement, inventory & workshop liaison</li>
+            <li>ERP & accounting software (Focus ERP, Tally)</li>
+            <li>Clear communication in multicultural work environments</li>
+          </ul>
+        </div>
+      </section>
+
     </div>
+
   </main>
 
   <footer>
     © 2026 Imran Ali · Hosted on GitHub Pages
   </footer>
 
+  <!-- Main Script -->
   <script src="script.js"></script>
-</body>
 
+</body>
 </html>
