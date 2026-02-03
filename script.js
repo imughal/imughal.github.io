@@ -23,7 +23,7 @@
   window.addEventListener('DOMContentLoaded', () => {
     const tBtn = document.getElementById("themeToggle");
     const pBtn = document.getElementById("printBtn");
-    const pBtn = document.getElementById("downBtn");
+    const dBtn = document.getElementById("downBtn");
 
     if (tBtn) {
       tBtn.onclick = function () {
@@ -59,4 +59,5 @@
     }, 1000);
   });
 })();
+
 
